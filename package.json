@@ -1,0 +1,28 @@
+{
+  "name": "zta_task_wdio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.13.5",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.13.4",
+    "@wdio/mocha-framework": "^8.12.1",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-wait-for": "^3.0.6"
+  }
+}
