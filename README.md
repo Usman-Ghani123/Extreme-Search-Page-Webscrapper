@@ -10,6 +10,14 @@ Extract href attributes of all the results appearing on the Extreme Search Page
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
+## *Tech Stack*
+
+- WebdriverIO v8
+  
+- Mocha
+
+- JavaScript
+
 ## *Packages Installation* 
 
 
